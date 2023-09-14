@@ -51,7 +51,7 @@ function Lista()
 
     var s = "";
     for (let i = 0; i < lista.length; i++) {
-        s += "<h3>"+lista[i].osztalynev+"oszt.f.:"+lista[i].osztalyfonoknev+"</h3>"
+        s += "<h3>"+lista[i].osztalynev+" oszt.f.: "+lista[i].osztalyfonoknev+"</h3>"
         s += "<ol>"
 
         for (let j = 0; j <lista[i].tagok.length; j++) {

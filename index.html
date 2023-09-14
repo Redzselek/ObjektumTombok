@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="osztalyfelvetel">
+        <div class="inputBox">
+            <input required="" id="osztalynev" type="text" placeholder="Write here...">
+            <span>Osztály név:</span>
+        </div>
+        <br>
+        <div class="inputBox">
+            <input required="" id="osztalyfonoknev" type="text" placeholder="Write here...">
+            <span>Osztalyfőnök név:</span>
+        </div>
+        <button class="btn" onclick="TagokFelvitele()">Tagok</button>
+        <button class="btn" onclick="Lista()">Lista</button>
+    </div>
+    <div id="tagfelvetel">
+
+        <div class="inputBox">
+            <input required="" id="diaknev" type="text" placeholder="Write here...">
+            <span>Név: </span>
+        </div>
+
+
+        <div class="inputBox">
+            <input required="" id="diaklakohely" type="text" placeholder="Write here...">
+            <span>Lakóhely: </span>
+        </div>
+
+        <button class="btn" onclick="Mentes()">Mentés</button>
+        <button class="btn" onclick="Kilepes()">Kilépés</button>
+    </div>
+    <div id="listanezet">
+        
+    </div>
+
+</body>
+</html>
+<script src="assets/js/js.js"></script>
